@@ -1,0 +1,47 @@
+h2 {
+  font-size: 12px;
+}
+.content-window {
+  max-width: 1000px;
+  &__header {
+    > p {
+      margin-top: 17px;
+      margin-bottom: 17px;
+      margin-left: 16px;
+      font-size: 15px;
+      line-height: 20px;
+      color: #cfcfcf;
+    }
+  }
+  hr {
+    margin: 0;
+    // margin-bottom: 16px;
+    border: 1px solid #cfd8dc;
+  }
+  &__task-text {
+    margin: 16px 25px 20px 16px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &__buttons {
+    display: flex;
+    line-height: 19px;
+    font-size: 14px;
+    .start {
+      background-color: #d32f2f;
+      margin: 0 20px 0px 16px;
+      padding: 7px 18px 6px 18px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 3px;
+    }
+    .chancel {
+      background-color: #fff;
+      color: #707070;
+      padding: 7px 16px 6px 17px;
+      border: 1px solid #707070;
+      border-radius: 3px;
+      text-decoration: none;
+    }
+  }
+}

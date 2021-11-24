@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Rubik&display=swap"
+        rel="stylesheet">
+    <title>Web-Test</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tests</h1>
+    </header>
+    <main>
+        <div class="wraper">
+            <div class="navbar">
+                <div class="navbar__head">
+                    <div class="navbar__head__icon">
+                        <img src="../img/arrow.svg" alt="arrow" class="arrow">
+                        <img src="../img/iconBurger.svg" alt="burger" class="burger hide">
+                    </div>
+                    <div class="navbar__head__headline">Тесты</div>
+                </div>
+                <hr>
+                <div class="navbar__tests">
+                    <ul class="list">
+                        <li class="elem active">
+                            <a href="#">Test's name</a>
+                        </li>
+                        <li class="elem">
+                            <a href="#">Another Test</a>
+                        </li>
+                        <li class="elem">
+                            <a href="#">Test</a>
+                        </li>
+                        <li class="elem">
+                            <a href="#">Название теста</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content-window content-window-close">
+                <div class="content-window__header">
+                    <div class="exit">
+                        <a href="#" class="btnExit">Выход</a>
+                    </div>
+                    <div class="name-test">
+                        <h1>Test's&nbspname</h1>
+                    </div>
+                    <div class="reset-answers">
+                        Сбросить все ответы
+                    </div>
+                    <hr>
+                    <div class="time-counter" id="time-counter">
+                    </div> 
+                </div>
+                <hr>
+                <div class="content-window__result-test">
+                    <h1>Тест завершён</h1>
+                    <div class="content-window__result-test__checking-answers">
+                        <p>Ваши ответы</p>
+                        <div class="quesstion-number">
+                            <p>1. Вопрос</p>
+                            <p class="right-answer">Правильный ответ: <span id="right-answer"></span></p>
+                            <p class="user-answer">Вы ответили: <span class="answer" data-quession="1">Вы не ответили</span></p>
+                            <div class="dotted-line"></div>
+                        </div>
+                        <div class="quesstion-number">
+                            <p>2. Вопрос</p>
+                            <p class="right-answer">Правильный ответ: <span id="right-answer"></span></p>
+                            <p class="user-answer">Вы ответили: <span class="answer" data-quession="2">Вы не ответили</span> </p>
+                            <div class="dotted-line"></div>
+                        </div>
+                        <div class="quesstion-number">
+                            <p>3. Вопрос</p>
+                            <p class="right-answer">Правильный ответ: <span id="right-answer"></span></p>
+                            <p class="user-answer">Вы ответили: <span class="answer" data-quession="3">Вы не ответили</span> </p>
+                            <div class="dotted-line"></div>
+                        </div>
+                        <div class="quesstion-number">
+                            <p>4. Вопрос</p>
+                            <p class="right-answer">Правильный: <span id="right-answer"></span></p>
+                            <p class="user-answer">Вы ответили: <span class="answer" data-quession="4">Вы не ответили</span> </p>
+                            <div class="dotted-line"></div>
+                        </div>
+                        <div class="quesstion-number">
+                            <p>5. Вопрос</p>
+                            <p class="right-answer">Правильный ответ: <span id="right-answer"></span></p>
+                            <p class="user-answer">Вы ответили: <span class="answer" data-quession="5">Вы не ответили</span> </p>
+                            <div class="dotted-line"></div>
+                        </div>
+                    </div>
+                    <div class="again-test">
+                        <hr class="line">
+                        <a href="/html/test-description.html" class="again">Пройти еще раз</a>
+                    </div>
+                    <div class="content-window__out-test">
+                        <div class="modal-dialog">
+                            <h3>Вы уверены что хотите выйти?</h3>
+                            <p>Все результаты будут сброшены</p>
+                            <div class="modal-dialog__buttons">
+                                <a href="../main.html" class="exit">Выход</a>
+                                <a href="#" class="return-to-test">Отмена</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="about-company">2020 © INTAS-Company.com</p>
+    </footer>
+    <script src="../js/_test-finish.js"></script>
+</body>
+
+</html>
