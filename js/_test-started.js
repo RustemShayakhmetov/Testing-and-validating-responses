@@ -102,28 +102,3 @@ function timerStart() {
 			('0'+dateTimer.getUTCSeconds()).slice(-2);
         },1000);
 }
-
-
-
-
-
-// function checkingAnswers() {
-//     localStorage.clear()
-//     localStorage.setItem('время теста', timerTest.textContent)
-
-//     let arrayAnswers = document.forms;
-//     let idUserAnswers=[];
-//     let haveAnswer = [];
-//     console.log(arrayAnswers)
-//     for (let i = 0; i < arrayAnswers.length; i++) {
-//         for (let k = 0; k < arrayAnswers[i].length; k++) {
-//             console.log(arrayAnswers)
-
-//             if (arrayAnswers[i][k].checked === true) {
-//                 idUserAnswers.push(arrayAnswers[i][k].value)
-//                 haveAnswer.push(arrayAnswers[i][k].dataset.quession)
-//             }
-//         }
-//     }
-//     sendAnswerToStorage(idUserAnswers, haveAnswer)
-// }
